@@ -1,0 +1,13 @@
+path: /content/datasets/save  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/train  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 4  # number of classes
+names: ['elephant', 'Giraffa', 'Zebra','Gazella']  # class names
+
+
+# Download script/URL (optional)
+download: https://github.com/Young-Lee314/kt-ai-2/raw/main/save.zip
+
